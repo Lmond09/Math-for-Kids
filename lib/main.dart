@@ -14,6 +14,7 @@ class MathApp extends StatelessWidget {
       title: 'Math for Kids',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: HomePage(),
+      debugShowCheckedModeBanner: false
     );
   }
 }

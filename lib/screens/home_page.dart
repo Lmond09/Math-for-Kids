@@ -77,7 +77,7 @@ Let's Learn Math in a Fun Way! """,
         MaterialPageRoute(builder: (context) => data['page']),
       ),
       child: Container(
-        margin: EdgeInsets.symmetric(vertical: 50, horizontal: 10), // Adds spacing between cards
+        margin: EdgeInsets.symmetric(vertical: 50, horizontal: 10),
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(20),
@@ -92,7 +92,7 @@ Let's Learn Math in a Fun Way! """,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(data['image'], height: 300), // Adjusted image size
+            Image.asset(data['image'], height: 300), 
             SizedBox(height: 10),
             Text(
               data['title'],
