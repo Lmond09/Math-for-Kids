@@ -1,0 +1,34 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+
+# IntelliJ related
+.idea/
+*.iml
+
+# VS Code related
+.vscode/
+
+# Build output
+build/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+macos/Flutter/Flutter.podspec
+macos/Flutter/ephemeral/
+
+# Android
+android/.gradle/
+android/app/build/
+*.apk
+*.aar
+*.jks
+
+# Others
+*.log
+*.lock
